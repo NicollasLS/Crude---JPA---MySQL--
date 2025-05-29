@@ -15,6 +15,7 @@ public class Professor {
     private String nome;
     private String email;
     private String telefone;
+    private String disciplina;
 
     public Long getId() {
         return id;
@@ -46,5 +47,13 @@ public class Professor {
 
     public void setTelefone(String telefone) {
         this.telefone = telefone;
+    }
+
+    public String getDisciplina() {
+        return disciplina;
+    }
+
+    public void setDisciplina(String disciplina) {
+        this.disciplina = disciplina;
     }
 }

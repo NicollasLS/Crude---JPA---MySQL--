@@ -1,8 +1,6 @@
 package com.aprende.lima.Service;
 
-import com.aprende.lima.Interface.AlunoRepository;
 import com.aprende.lima.Interface.ProfessorRepository;
-import com.aprende.lima.Model.Aluno;
 import com.aprende.lima.Model.Professor;
 import org.springframework.stereotype.Service;
 

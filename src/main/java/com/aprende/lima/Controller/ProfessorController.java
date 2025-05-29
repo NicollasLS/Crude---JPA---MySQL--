@@ -1,9 +1,7 @@
 package com.aprende.lima.Controller;
 
 
-import com.aprende.lima.Model.Aluno;
 import com.aprende.lima.Model.Professor;
-import com.aprende.lima.Service.AlunoService;
 import com.aprende.lima.Service.ProfessorService;
 import org.springframework.web.bind.annotation.*;
 
@@ -49,6 +47,8 @@ public class ProfessorController {
     atualizado.setNome(alteraProfessor.getNome());
     atualizado.setEmail(alteraProfessor.getEmail());
     atualizado.setTelefone(alteraProfessor.getTelefone());
+    atualizado.setDisciplina(alteraProfessor.getDisciplina());
+
     return service.criarProfessor(atualizado);
     }
 }
